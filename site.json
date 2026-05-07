@@ -2,8 +2,10 @@
   "favicon": "139740215061279",
   "webcontent": [
     {
+      "running": "false",
       "alias": "Loader",
       "globalid": "8P",
+      "class": "script",
       "content": [
         {
           "y": "4729",
@@ -673,7 +675,7 @@
                 },
                 "of",
                 {
-                  "value": "[l",
+                  "value": "`4",
                   "t": "object"
                 },
                 "→",
@@ -769,6 +771,67 @@
                 }
               ],
               "globalid": "3m"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "pos",
+                  "l": "function",
+                  "t": "string"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "l": "variable?",
+                  "t": "string"
+                }
+              ],
+              "globalid": "/1"
+            },
+            {
+              "id": "3",
+              "text": [
+                "Wait",
+                {
+                  "value": "0.3",
+                  "t": "number"
+                },
+                "seconds"
+              ],
+              "globalid": "zf"
+            },
+            {
+              "id": "63",
+              "text": [
+                "Run function in background",
+                {
+                  "value": "tween",
+                  "l": "function",
+                  "t": "string"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                }
+              ],
+              "globalid": "P+"
+            },
+            {
+              "id": "124",
+              "text": [
+                {
+                  "value": "the bottom half is just broken. Makes the top 3 sites colored.",
+                  "l": "comment",
+                  "t": "string"
+                }
+              ],
+              "globalid": "\\1"
             },
             {
               "id": "58",
@@ -1029,56 +1092,6 @@
                 }
               ],
               "globalid": "25"
-            },
-            {
-              "id": "87",
-              "text": [
-                "Run function",
-                {
-                  "value": "pos",
-                  "t": "string",
-                  "l": "function"
-                },
-                {
-                  "value": [],
-                  "t": "tuple"
-                },
-                "→",
-                {
-                  "value": "",
-                  "t": "string",
-                  "l": "variable?"
-                }
-              ],
-              "globalid": "/1"
-            },
-            {
-              "id": "3",
-              "text": [
-                "Wait",
-                {
-                  "value": "0.3",
-                  "t": "number"
-                },
-                "seconds"
-              ],
-              "globalid": "zf"
-            },
-            {
-              "id": "63",
-              "text": [
-                "Run function in background",
-                {
-                  "value": "tween",
-                  "t": "string",
-                  "l": "function"
-                },
-                {
-                  "value": [],
-                  "t": "tuple"
-                }
-              ],
-              "globalid": "P+"
             }
           ],
           "id": "0",
@@ -1824,8 +1837,8 @@
           "width": "539"
         },
         {
-          "y": "6205",
-          "x": "3839",
+          "y": "6233",
+          "x": "4170",
           "actions": [
             {
               "id": "4",
@@ -2745,7 +2758,7 @@
             }
           ],
           "globalid": "O=",
-          "width": "574"
+          "width": "472"
         },
         {
           "y": "4767",
@@ -4535,8 +4548,7 @@
           "globalid": "4'",
           "width": "476"
         }
-      ],
-      "class": "script"
+      ]
     },
     {
       "background_color": "#111113",
@@ -4789,78 +4801,6 @@
                       "class": "UIListLayout"
                     },
                     {
-                      "visible": "true",
-                      "background_color": "#1c1c1f",
-                      "background_transparency": "0",
-                      "class": "Frame",
-                      "children": [
-                        {
-                          "radius": "0, 16",
-                          "globalid": "A8",
-                          "class": "UICorner"
-                        },
-                        {
-                          "top": "0, 20",
-                          "left": "0, 20",
-                          "bottom": "0, 20",
-                          "right": "0, 20",
-                          "class": "UIPadding",
-                          "globalid": "-G",
-                          "alias": "Padding"
-                        },
-                        {
-                          "align_y": "Center",
-                          "font_color": "#ffffff",
-                          "rich": "false",
-                          "text": "The site mostly got the visits information from the catweb fandom 10k visits badge holders.",
-                          "font_size": "20",
-                          "background_transparency": "1",
-                          "align_x": "Left",
-                          "class": "TextLabel",
-                          "globalid": "n ",
-                          "size": "auto"
-                        },
-                        {
-                          "align_y": "Center",
-                          "font_color": "#ffffff",
-                          "rich": "false",
-                          "class": "TextLabel",
-                          "font_size": "20",
-                          "background_transparency": "1",
-                          "align_x": "Left",
-                          "position": "{0, 0},{0, 40}",
-                          "text": "If you find sites that has more than 10k visits, contact me in the catweb communications server",
-                          "globalid": "-c",
-                          "size": "auto"
-                        },
-                        {
-                          "align_y": "Center",
-                          "font_color": "#a7a7a7",
-                          "rich": "false",
-                          "text": "d: @Youarefloppa",
-                          "font_size": "20",
-                          "background_transparency": "1",
-                          "align_x": "Left",
-                          "position": "{0, 0},{1, 0}",
-                          "anchor": "0, 1",
-                          "class": "TextLabel",
-                          "globalid": "m~",
-                          "size": "auto"
-                        }
-                      ],
-                      "globalid": "[l",
-                      "alias": "z2",
-                      "size": "{1, 0},{0, 150}"
-                    },
-                    {
-                      "background_transparency": "1",
-                      "globalid": "!&",
-                      "alias": "z1",
-                      "class": "Frame",
-                      "background_color": "#c8c8c8",
-                      "size": "{0, 50},{0, 50}"
-                    },
-                    {
                       "children": [
                         {
                           "font_color": "#ffffff",
@@ -4938,8 +4878,80 @@
                       "position": "{0, 0},{0, 63}",
                       "globalid": "@~",
                       "class": "Frame",
-                      "alias": "site",
+                      "alias": "1 site",
                       "size": "{1, 0},{0, 50}"
+                    },
+                    {
+                      "background_transparency": "1",
+                      "globalid": "sv",
+                      "background_color": "#c8c8c8",
+                      "class": "Frame",
+                      "alias": "2 padding",
+                      "size": "{0, 50},{0, 50}"
+                    },
+                    {
+                      "visible": "true",
+                      "class": "Frame",
+                      "background_color": "#1c1c1f",
+                      "background_transparency": "0",
+                      "alias": "3 contributions",
+                      "globalid": "`4",
+                      "children": [
+                        {
+                          "radius": "0, 16",
+                          "globalid": "}*",
+                          "class": "UICorner"
+                        },
+                        {
+                          "top": "0, 20",
+                          "alias": "Padding",
+                          "globalid": "P=",
+                          "bottom": "0, 20",
+                          "class": "UIPadding",
+                          "left": "0, 20",
+                          "right": "0, 20"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#ffffff",
+                          "rich": "false",
+                          "text": "Contributions:",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "class": "TextLabel",
+                          "globalid": "sx",
+                          "size": "auto"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#ffffff",
+                          "rich": "false",
+                          "class": "TextLabel",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "position": "{0, 0},{0, 40}",
+                          "text": "@DevsLovePizza - Creating the site",
+                          "globalid": "TU",
+                          "size": "auto"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#a7a7a7",
+                          "rich": "false",
+                          "text": "If you want to contribute, visit the Gitpup repository named Topvisits.",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "position": "{0, 0},{1, 0}",
+                          "anchor": "0, 1",
+                          "class": "TextLabel",
+                          "globalid": "ew",
+                          "size": "auto"
+                        }
+                      ],
+                      "size": "{1, 0},{0, 150}"
                     }
                   ],
                   "class": "Frame",
@@ -4952,7 +4964,7 @@
               "size": "{1, 0},{0, 0}"
             },
             {
-              "visible": "false",
+              "visible": "true",
               "background_color": "#111113",
               "class": "Frame",
               "position": "{0, 0},{0, 210}",
