@@ -1,5 +1,5 @@
 # Topvisits.rbx
-Topvisits.rbx is a Catweb site that tracks the most visited Catweb domains. Basically a visits leaderboard.
+Topvisits.rbx is a Catweb site that tracks the most visited Catweb domains. A visits leaderboard.
 
 ## What you can contribute towards
 Feel free to optimize the code, fix broken stuff, edit statistics, fix something visually broken.
