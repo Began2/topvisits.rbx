@@ -8,3 +8,6 @@ After a repository edit, I will update the site to match what is on github.
 
 Message me on Discord @youarefloppa for any needed questions, or visit this Discord thread <>
 ###### Please update my old code 🙏
+#
+<img width="794" height="410" alt="image" src="https://github.com/user-attachments/assets/1119a77d-95d4-4e81-be8b-85d8bbe50c8d" />
+
