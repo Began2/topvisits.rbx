@@ -1,0 +1,5037 @@
+{
+  "favicon": "139740215061279",
+  "webcontent": [
+    {
+      "alias": "Loader",
+      "globalid": "8P",
+      "content": [
+        {
+          "y": "4729",
+          "x": "4598",
+          "actions": [
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "q",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "utube",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "*D"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "1283281",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "q2"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": "vT"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "creator",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": "mI"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": ":+"
+            },
+            {
+              "id": "56",
+              "text": [
+                "Get entry",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "→",
+                {
+                  "value": "topvisits",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "`5"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "inc",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "0",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": ";n"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "siz",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "0",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "qi"
+            },
+            {
+              "id": "22",
+              "text": [
+                "Repeat",
+                {
+                  "value": "36",
+                  "t": "number"
+                },
+                "times"
+              ],
+              "globalid": "]3"
+            },
+            {
+              "id": "12",
+              "text": [
+                "Increase",
+                {
+                  "value": "inc",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "by",
+                {
+                  "value": "1",
+                  "t": "number"
+                }
+              ],
+              "globalid": "tI"
+            },
+            {
+              "id": "61",
+              "text": [
+                "Iterate through",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "({index},{value})"
+              ],
+              "globalid": "mm"
+            },
+            {
+              "id": "92",
+              "text": [
+                "If",
+                {
+                  "value": "{value}",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "exists"
+              ],
+              "globalid": "WN"
+            },
+            {
+              "id": "20",
+              "text": [
+                "If",
+                {
+                  "value": "{value}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "is greater than",
+                {
+                  "value": "{topvisits}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "_+"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "topvisits",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "{value}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "OQ"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "topd",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "{index}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "]7"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "$a"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "Pq"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "JO"
+            },
+            {
+              "id": "56",
+              "text": [
+                "Get entry",
+                {
+                  "value": "{topd}",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "→",
+                {
+                  "value": "topdo",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "D~"
+            },
+            {
+              "id": "56",
+              "text": [
+                "Get entry",
+                {
+                  "value": "{topd}",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "→",
+                {
+                  "value": "topc",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "7?"
+            },
+            {
+              "id": "90",
+              "text": [
+                "Delete entry",
+                {
+                  "value": "{topd}",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "U5"
+            },
+            {
+              "id": "90",
+              "text": [
+                "Delete entry",
+                {
+                  "value": "{topd}",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "r>"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "topd",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "^l"
+            },
+            {
+              "id": "18",
+              "text": [
+                "If",
+                {
+                  "value": "{inc}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "is equal to",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "o "
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "first",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": ",b"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "Xl"
+            },
+            {
+              "id": "20",
+              "text": [
+                "If",
+                {
+                  "value": "{inc}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "is greater than",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Z+"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "more",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": "-="
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": ",)"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "topvisits",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "q?"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "topc",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "qo"
+            },
+            {
+              "id": "12",
+              "text": [
+                "Increase",
+                {
+                  "value": "siz",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "by",
+                {
+                  "value": "1",
+                  "t": "number"
+                }
+              ],
+              "globalid": "D`"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "siz1",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "{siz}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "=."
+            },
+            {
+              "id": "15",
+              "text": [
+                "Divide",
+                {
+                  "value": "siz1",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "by",
+                {
+                  "value": "36",
+                  "t": "number"
+                }
+              ],
+              "globalid": "s5"
+            },
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Size",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "G5",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "{{siz1},0},{1,0}",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "0.1",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "#l"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "L+"
+            },
+            {
+              "id": "58",
+              "text": [
+                "Parent",
+                {
+                  "value": "vb",
+                  "t": "object"
+                },
+                "under",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                }
+              ],
+              "globalid": "l2"
+            },
+            {
+              "id": "58",
+              "text": [
+                "Parent",
+                {
+                  "value": "5G",
+                  "t": "object"
+                },
+                "under",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                }
+              ],
+              "globalid": "s("
+            },
+            {
+              "id": "39",
+              "text": [
+                "Get",
+                {
+                  "value": "Absolute Position",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "[l",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "abs",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "Kv"
+            },
+            {
+              "id": "57",
+              "text": [
+                "Split",
+                {
+                  "value": "{abs}",
+                  "t": "string"
+                },
+                {
+                  "value": ",",
+                  "t": "string",
+                  "l": "separator"
+                },
+                "→",
+                {
+                  "value": "abs1",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "b\\"
+            },
+            {
+              "id": "56",
+              "text": [
+                "Get entry",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "abs1",
+                  "t": "string",
+                  "l": "table"
+                },
+                "→",
+                {
+                  "value": "abs",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": ",0"
+            },
+            {
+              "id": "12",
+              "text": [
+                "Increase",
+                {
+                  "value": "abs",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "by",
+                {
+                  "value": "203",
+                  "t": "number"
+                }
+              ],
+              "globalid": "f{"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Canvas Size",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "p5",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "{0,0},{0,{abs}}",
+                  "t": "any"
+                }
+              ],
+              "globalid": "3m"
+            },
+            {
+              "id": "58",
+              "text": [
+                "Parent",
+                {
+                  "value": "~&",
+                  "t": "object"
+                },
+                "under",
+                {
+                  "value": "{b1}",
+                  "t": "object"
+                }
+              ],
+              "globalid": "or"
+            },
+            {
+              "id": "9",
+              "text": [
+                "Make",
+                {
+                  "value": "~&",
+                  "t": "object"
+                },
+                "visible"
+              ],
+              "globalid": "I^"
+            },
+            {
+              "id": "58",
+              "text": [
+                "Parent",
+                {
+                  "value": "b!",
+                  "t": "object"
+                },
+                "under",
+                {
+                  "value": "{b2}",
+                  "t": "object"
+                }
+              ],
+              "globalid": "Ti"
+            },
+            {
+              "id": "9",
+              "text": [
+                "Make",
+                {
+                  "value": "b!",
+                  "t": "object"
+                },
+                "visible"
+              ],
+              "globalid": "*n"
+            },
+            {
+              "id": "58",
+              "text": [
+                "Parent",
+                {
+                  "value": "qt",
+                  "t": "object"
+                },
+                "under",
+                {
+                  "value": "{b3}",
+                  "t": "object"
+                }
+              ],
+              "globalid": "-I"
+            },
+            {
+              "id": "9",
+              "text": [
+                "Make",
+                {
+                  "value": "qt",
+                  "t": "object"
+                },
+                "visible"
+              ],
+              "globalid": "*I"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "rank",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{b1}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "c1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "eO"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "rank",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{b2}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "c2",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "Nl"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "rank",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{b3}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "c3",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "B,"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Text Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c1}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "ebcb27",
+                  "t": "any"
+                }
+              ],
+              "globalid": "bo"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Text Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c2}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "c1c0be",
+                  "t": "any"
+                }
+              ],
+              "globalid": "M|"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Text Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c3}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "cd7d2a",
+                  "t": "any"
+                }
+              ],
+              "globalid": "~5"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Position",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c1}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "0,30,0.5,0",
+                  "t": "any"
+                }
+              ],
+              "globalid": "L\""
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Position",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c2}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "0,30,0.5,0",
+                  "t": "any"
+                }
+              ],
+              "globalid": "25"
+            },
+            {
+              "id": "87",
+              "text": [
+                "Run function",
+                {
+                  "value": "pos",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                },
+                "→",
+                {
+                  "value": "",
+                  "t": "string",
+                  "l": "variable?"
+                }
+              ],
+              "globalid": "/1"
+            },
+            {
+              "id": "3",
+              "text": [
+                "Wait",
+                {
+                  "value": "0.3",
+                  "t": "number"
+                },
+                "seconds"
+              ],
+              "globalid": "zf"
+            },
+            {
+              "id": "63",
+              "text": [
+                "Run function in background",
+                {
+                  "value": "tween",
+                  "t": "string",
+                  "l": "function"
+                },
+                {
+                  "value": [],
+                  "t": "tuple"
+                }
+              ],
+              "globalid": "P+"
+            }
+          ],
+          "id": "0",
+          "text": [
+            "When website loaded..."
+          ],
+          "globalid": "[3",
+          "width": "600"
+        },
+        {
+          "y": "4961",
+          "x": "4122",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "49",
+              "text": [
+                "Duplicate",
+                {
+                  "value": "@~",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "a",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "vN"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "domain",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "domain1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": ":{"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "rank",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "rank1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "+0"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "visits",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "visits1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "{7"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "creator",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "{a}",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "creator1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "UZ"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "{domain1}",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{topdo}.rbx",
+                  "t": "string"
+                }
+              ],
+              "globalid": "vp"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "{rank1}",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{inc}",
+                  "t": "string"
+                }
+              ],
+              "globalid": "R%"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "{visits1}",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{topvisits}k",
+                  "t": "string"
+                }
+              ],
+              "globalid": "Ai"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "{creator1}",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "@{topc}",
+                  "t": "string"
+                }
+              ],
+              "globalid": "@{"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Reference",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{domain1}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "{topdo}.rbx",
+                  "t": "any"
+                }
+              ],
+              "globalid": "/0"
+            },
+            {
+              "id": "18",
+              "text": [
+                "If",
+                {
+                  "value": "{inc}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "is equal to",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "]!"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "b2",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "{a}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "P1"
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "-^"
+            },
+            {
+              "id": "18",
+              "text": [
+                "If",
+                {
+                  "value": "{inc}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "is equal to",
+                {
+                  "value": "3",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "aM"
+            },
+            {
+              "id": "11",
+              "text": [
+                "Set",
+                {
+                  "value": "b3",
+                  "t": "string",
+                  "l": "variable"
+                },
+                "to",
+                {
+                  "value": "{a}",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "4="
+            },
+            {
+              "id": "25",
+              "text": [
+                "end"
+              ],
+              "globalid": "@l"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "more",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "e+",
+          "width": "462"
+        },
+        {
+          "y": "5669",
+          "x": "4116",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "eU",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{topdo}.rbx",
+                  "t": "string"
+                }
+              ],
+              "globalid": ":8"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "Y@",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{inc}",
+                  "t": "string"
+                }
+              ],
+              "globalid": "~J"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "T,",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "{topvisits}k",
+                  "t": "string"
+                }
+              ],
+              "globalid": "MY"
+            },
+            {
+              "id": "10",
+              "text": [
+                "Set",
+                {
+                  "value": "fH",
+                  "t": "object"
+                },
+                "text to",
+                {
+                  "value": "@{topc}",
+                  "t": "string"
+                }
+              ],
+              "globalid": "q'"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Reference",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "eU",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "{topdo}.rbx",
+                  "t": "any"
+                }
+              ],
+              "globalid": "aH"
+            },
+            {
+              "id": "99",
+              "text": [
+                "Find child named",
+                {
+                  "value": "site",
+                  "t": "string"
+                },
+                "in",
+                {
+                  "value": "Vc",
+                  "t": "object"
+                },
+                "→",
+                {
+                  "value": "b1",
+                  "t": "string",
+                  "l": "variable"
+                }
+              ],
+              "globalid": "R0"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "first",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": ";q",
+          "width": "442"
+        },
+        {
+          "y": "6463",
+          "x": "3891",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Background Transparency",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "UW",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "1",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "2",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "22"
+            },
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Background Transparency",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "kE",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "1",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "0.5",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "  "
+            },
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Background Transparency",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "G5",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "1",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "0.5",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "F+"
+            },
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Outline Transparency",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "v,",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "1",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "0.5",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "yd"
+            },
+            {
+              "id": "88",
+              "text": [
+                "Tween",
+                {
+                  "value": "Text Transparency",
+                  "l": "property",
+                  "t": "string"
+                },
+                "of",
+                {
+                  "value": "7l",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "1",
+                  "t": "any"
+                },
+                "-",
+                {
+                  "value": "0.5",
+                  "l": "time",
+                  "t": "number"
+                },
+                {
+                  "value": "Sine",
+                  "l": "style",
+                  "t": "string"
+                },
+                {
+                  "value": "Out",
+                  "l": "direction",
+                  "t": "string"
+                }
+              ],
+              "globalid": "xj"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "tween",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "I_",
+          "width": "600"
+        },
+        {
+          "y": "6351",
+          "x": "5256",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Position",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{c3}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "0,30,0.5,0",
+                  "t": "any"
+                }
+              ],
+              "globalid": "p*"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Background Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{b1}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "433d1d",
+                  "t": "any"
+                }
+              ],
+              "globalid": "~A"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Background Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{b2}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "414141",
+                  "t": "any"
+                }
+              ],
+              "globalid": "_J"
+            },
+            {
+              "id": "31",
+              "text": [
+                "Set",
+                {
+                  "value": "Background Color",
+                  "t": "string",
+                  "l": "property"
+                },
+                "of",
+                {
+                  "value": "{b3}",
+                  "t": "object"
+                },
+                "to",
+                {
+                  "value": "4d3b29",
+                  "t": "any"
+                }
+              ],
+              "globalid": "?E"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "pos",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "/B",
+          "width": "539"
+        },
+        {
+          "y": "6205",
+          "x": "3839",
+          "actions": [
+            {
+              "id": "4",
+              "text": [
+                "Redirect to",
+                {
+                  "value": "topvisits.rbx",
+                  "t": "string",
+                  "href": "true"
+                }
+              ],
+              "globalid": "uZ"
+            }
+          ],
+          "id": "1",
+          "text": [
+            "When",
+            {
+              "value": "@Y",
+              "t": "object",
+              "l": "button"
+            },
+            "pressed..."
+          ],
+          "globalid": "7<",
+          "width": "350"
+        },
+        {
+          "y": "4764",
+          "x": "3609",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "54",
+              "text": [
+                "Create table",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "aK"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "goingto2015",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "_D"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "dotab",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "!#"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "3",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "example",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": ",?"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "4",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "rfnaf",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "GY"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "5",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "livechat",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "-L"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "6",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "z4",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "V#"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "7",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "roblox",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "bw"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "8",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "chat",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "fc"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "9",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "slenderman",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Nj"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "10",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "sprunki",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Y7"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "11",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "thecatweb",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "t_"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "12",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "neal",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "!C"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "14",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "walgreens",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "xb"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "patdomains",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Y:"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "searchgo",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Kw"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "webflix",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "mL"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "bloxspace",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "}h"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "mira",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "w#"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "games",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Dy"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "yandex",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "B}"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "cat",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "xG"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "listen",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "K]"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "yt1",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "y["
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "robloxgames6",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "ec"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "r",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "SS"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "art",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "j\""
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "service",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "{*"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "minecraft",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "GA"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "jexx",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "/,"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "fnaf",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Js"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "piano",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Y_"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "spotifya",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "^9"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "undertale",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "\\>"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "bloxity",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "`s"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "music",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "V1"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "roify",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "domains",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "H&"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "domains",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "O=",
+          "width": "574"
+        },
+        {
+          "y": "4767",
+          "x": "3164",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "54",
+              "text": [
+                "Create table",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "cg"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "12.7",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "0r"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "50.5",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "}B"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "3",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "24",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "n&"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "4",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "55.5",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "-Y"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "5",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "22",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "<="
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "6",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "137",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "[~"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "7",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "132",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Jl"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "8",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "10.7",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "!@"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "9",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "11.5",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "0:"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "10",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "18.1",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Z$"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "11",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "12.5",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "iv"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "12",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "13.2",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "qN"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "14",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "14.8",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "*e"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "23.1",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "KH"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "23.5",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Tq"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "56.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "[6"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "23.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "0h"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "13.4",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "UL"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "74.2",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "5!"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "34.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "?g"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "51.4",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "1i"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "25.5",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "SU"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "`."
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.6",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "!Q"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "45.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "PP"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "$:"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "12.7",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": ">G"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "19.8",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "7E"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "23",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "j&"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "17.1",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "wT"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "14.1",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "IS"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.6",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "6'"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.5",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "v5"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.1",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Sa"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "10.2",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Hf"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "17.2",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "visits",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "50"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "visits",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "Cb",
+          "width": "404"
+        },
+        {
+          "y": "4768",
+          "x": "2654",
+          "variable_overrides": [],
+          "actions": [
+            {
+              "id": "54",
+              "text": [
+                "Create table",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                }
+              ],
+              "globalid": "YE"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "1",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "815003918831170937",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "{g"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "2",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "aidenplayszoz ",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Xj"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "3",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "CcXxiiHuman_C4t",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "u|"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "4",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": ">s"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "5",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "Creeper_Pug",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "3o"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "6",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "e1ectricdog",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "\\T"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "7",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "JaVoMoDz",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "Ec"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "8",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "koliemini",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": ":S"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "9",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "luaupot",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "3}"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "10",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "MrBeastDarkOrigins",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "KT"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "11",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "Myaltser",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "$R"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "12",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "NoobcyHarlaw",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "d+"
+            },
+            {
+              "id": "55",
+              "text": [
+                "Set entry",
+                {
+                  "value": "14",
+                  "t": "string",
+                  "l": "entry"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "table"
+                },
+                "to",
+                {
+                  "value": "idleoofy",
+                  "t": "string",
+                  "l": "any"
+                }
+              ],
+              "globalid": "CJ"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "PatLikesBacons",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "s@"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "POPAPICI",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "#P"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Rott3nJam",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "aW"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "rty111",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": ":Y"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "salad_txt",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "0Q"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "StudioCompile",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "o~"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "ShironBros",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "xt"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "t3kiv",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "W#"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "TheSecretLamb",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "A~"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Wayattbuy",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "X-"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "void{2}",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "(R"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "StudioCompile",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "kE"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "StudioCompile",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "8}"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "StudioCompile",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "e*"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "sevaSHARK320",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "~4"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "*{"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "~6"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "i5"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "&I"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "Claynns_Vicky",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "Wi"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "begantistankas2",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "?6"
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "idleoofy",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "9\""
+            },
+            {
+              "id": "89",
+              "text": [
+                "Insert",
+                {
+                  "value": "e1ectricdog",
+                  "t": "string",
+                  "l": "any"
+                },
+                "at position",
+                {
+                  "value": "",
+                  "t": "number",
+                  "l": "number?"
+                },
+                "of",
+                {
+                  "value": "creators",
+                  "t": "string",
+                  "l": "array"
+                }
+              ],
+              "globalid": "!8"
+            }
+          ],
+          "id": "6",
+          "text": [
+            "Define function",
+            {
+              "value": "creator",
+              "t": "string",
+              "l": "function"
+            }
+          ],
+          "globalid": "4'",
+          "width": "476"
+        }
+      ],
+      "class": "script"
+    },
+    {
+      "background_color": "#111113",
+      "scrollbar_color": "#ffffff",
+      "scrollbar_thickness": "4",
+      "canvassize": "{0, 0},{0, 0}",
+      "children": [
+        {
+          "background_color": "#111113",
+          "class": "Frame",
+          "background_transparency": "0",
+          "children": [
+            {
+              "background_color": "#c8c8c8",
+              "background_transparency": "1",
+              "alias": "header",
+              "class": "Frame",
+              "globalid": "\"q",
+              "children": [
+                {
+                  "align_y": "Center",
+                  "alias": "logo",
+                  "text": "",
+                  "auto_color": "true",
+                  "class": "TextButton",
+                  "background_color": "#4e9bff",
+                  "font_size": "scaled",
+                  "background_transparency": "1",
+                  "align_x": "Center",
+                  "position": "{0, 0},{0.5, 0}",
+                  "anchor": "0, 0.5",
+                  "children": [
+                    {
+                      "image_id": "119084870613436",
+                      "background_transparency": "1",
+                      "image": "rbxassetid://111649150154324",
+                      "class": "ImageLabel",
+                      "globalid": ")G",
+                      "size": "{0, 40},{0, 40}"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#ffffff",
+                      "rich": "false",
+                      "class": "TextLabel",
+                      "text": "TopVisits",
+                      "font_size": "28",
+                      "background_transparency": "1",
+                      "align_x": "Right",
+                      "position": "{1, 0},{1, 0}",
+                      "anchor": "1, 1",
+                      "font": "SourceSansSemibold",
+                      "globalid": "P@",
+                      "size": "{1, 0},{1, 0}"
+                    }
+                  ],
+                  "globalid": "@Y",
+                  "size": "{0, 150},{0, 40}"
+                }
+              ],
+              "size": "{1, 0},{0, 90}"
+            },
+            {
+              "background_color": "#5a6c84",
+              "class": "Frame",
+              "children": [
+                {
+                  "radius": "0, 16",
+                  "globalid": "hC",
+                  "class": "UICorner"
+                },
+                {
+                  "align_y": "Center",
+                  "font_color": "#ffffff",
+                  "rich": "false",
+                  "text": "Top Visited Websites in CatWeb",
+                  "class": "TextLabel",
+                  "font_size": "50",
+                  "background_transparency": "1",
+                  "align_x": "Center",
+                  "globalid": "@|",
+                  "font": "SourceSansSemibold",
+                  "alias": "Text",
+                  "size": "{1, 0},{1, 0}"
+                }
+              ],
+              "position": "{0.5, 0},{0, 100}",
+              "anchor": "0.5, 0",
+              "globalid": "q?",
+              "alias": "notice",
+              "size": "{1, 0},{0, 100}"
+            },
+            {
+              "visible": "true",
+              "background_color": "#c8c8c8",
+              "class": "Frame",
+              "position": "{0, 0},{0, 250}",
+              "children": [
+                {
+                  "alias": "header",
+                  "background_color": "#1c1c1f",
+                  "globalid": "\"|",
+                  "class": "Frame",
+                  "children": [
+                    {
+                      "radius": "0, 16",
+                      "globalid": "-5",
+                      "class": "UICorner"
+                    },
+                    {
+                      "background_color": "#1c1c1f",
+                      "position": "{1, 0},{1, 0}",
+                      "anchor": "1, 1",
+                      "class": "Frame",
+                      "globalid": "Ih",
+                      "size": "{1, 0},{0.5, 0}"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#ffffff",
+                      "class": "TextLabel",
+                      "rich": "false",
+                      "alias": "rank",
+                      "text": "Rank",
+                      "font_size": "25",
+                      "font": "SourceSans",
+                      "align_x": "Center",
+                      "position": "{0, 20},{0.5, 0}",
+                      "anchor": "0, 0.5",
+                      "background_transparency": "1",
+                      "globalid": ".5",
+                      "size": "auto"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#ffffff",
+                      "class": "TextLabel",
+                      "rich": "false",
+                      "alias": "domain",
+                      "text": "Domain",
+                      "font_size": "25",
+                      "font": "SourceSans",
+                      "align_x": "Center",
+                      "position": "{0, 200},{0.5, 0}",
+                      "anchor": "0, 0.5",
+                      "background_transparency": "1",
+                      "globalid": "PU",
+                      "size": "auto"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#ffffff",
+                      "class": "TextLabel",
+                      "rich": "false",
+                      "alias": "visits",
+                      "text": "Visits",
+                      "font_size": "25",
+                      "font": "SourceSans",
+                      "align_x": "Center",
+                      "position": "{0, 110},{0.5, 0}",
+                      "anchor": "0, 0.5",
+                      "background_transparency": "1",
+                      "globalid": "CR",
+                      "size": "auto"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#ffffff",
+                      "class": "TextLabel",
+                      "rich": "false",
+                      "alias": "creator",
+                      "text": "Creator",
+                      "font_size": "25",
+                      "font": "SourceSans",
+                      "align_x": "Center",
+                      "position": "{1, -20},{0.5, 0}",
+                      "anchor": "1, 0.5",
+                      "background_transparency": "1",
+                      "globalid": "/%",
+                      "size": "auto"
+                    }
+                  ],
+                  "size": "{1, 0},{0, 60}"
+                },
+                {
+                  "visible": "true",
+                  "globalid": "vb",
+                  "position": "{1, 0},{0, 0}",
+                  "anchor": "1, 0",
+                  "class": "Frame",
+                  "background_color": "#1c1c1f",
+                  "size": "{1, 0},{0.5, 0}"
+                },
+                {
+                  "radius": "0, 16",
+                  "globalid": "5G",
+                  "class": "UICorner"
+                },
+                {
+                  "visible": "false",
+                  "rotation": "-10",
+                  "class": "ImageLabel",
+                  "image_color": "#ebcb27",
+                  "alias": "Image",
+                  "image_id": "119072327605277",
+                  "image": "rbxassetid://129994093634221",
+                  "position": "{0, 20},{0.5, 0}",
+                  "anchor": "0, 0.5",
+                  "background_transparency": "1",
+                  "globalid": "~&",
+                  "size": "{0, 20},{0, 20}"
+                },
+                {
+                  "visible": "false",
+                  "rotation": "-10",
+                  "class": "ImageLabel",
+                  "image_color": "#c1c0be",
+                  "alias": "Image",
+                  "image_id": "119072327605277",
+                  "image": "rbxassetid://129994093634221",
+                  "position": "{0, 20},{0.5, 0}",
+                  "anchor": "0, 0.5",
+                  "background_transparency": "1",
+                  "globalid": "b!",
+                  "size": "{0, 20},{0, 20}"
+                },
+                {
+                  "visible": "false",
+                  "class": "ImageLabel",
+                  "image_color": "#cd7d2a",
+                  "alias": "Image",
+                  "rotation": "-10",
+                  "image": "rbxassetid://129994093634221",
+                  "image_id": "119072327605277",
+                  "position": "{0, 20},{0.5, 0}",
+                  "anchor": "0, 0.5",
+                  "background_transparency": "1",
+                  "globalid": "qt",
+                  "size": "{0, 20},{0, 20}"
+                },
+                {
+                  "background_transparency": "1",
+                  "background_color": "#c8c8c8",
+                  "position": "{0, 0},{0, 63}",
+                  "children": [
+                    {
+                      "globalid": "}!",
+                      "padding": "0, 3",
+                      "sort": "Name",
+                      "class": "UIListLayout"
+                    },
+                    {
+                      "visible": "true",
+                      "background_color": "#1c1c1f",
+                      "background_transparency": "0",
+                      "class": "Frame",
+                      "children": [
+                        {
+                          "radius": "0, 16",
+                          "globalid": "A8",
+                          "class": "UICorner"
+                        },
+                        {
+                          "top": "0, 20",
+                          "left": "0, 20",
+                          "bottom": "0, 20",
+                          "right": "0, 20",
+                          "class": "UIPadding",
+                          "globalid": "-G",
+                          "alias": "Padding"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#ffffff",
+                          "rich": "false",
+                          "text": "The site mostly got the visits information from the catweb fandom 10k visits badge holders.",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "class": "TextLabel",
+                          "globalid": "n ",
+                          "size": "auto"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#ffffff",
+                          "rich": "false",
+                          "class": "TextLabel",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "position": "{0, 0},{0, 40}",
+                          "text": "If you find sites that has more than 10k visits, contact me in the catweb communications server",
+                          "globalid": "-c",
+                          "size": "auto"
+                        },
+                        {
+                          "align_y": "Center",
+                          "font_color": "#a7a7a7",
+                          "rich": "false",
+                          "text": "d: @Youarefloppa",
+                          "font_size": "20",
+                          "background_transparency": "1",
+                          "align_x": "Left",
+                          "position": "{0, 0},{1, 0}",
+                          "anchor": "0, 1",
+                          "class": "TextLabel",
+                          "globalid": "m~",
+                          "size": "auto"
+                        }
+                      ],
+                      "globalid": "[l",
+                      "alias": "z2",
+                      "size": "{1, 0},{0, 150}"
+                    },
+                    {
+                      "background_transparency": "1",
+                      "globalid": "!&",
+                      "alias": "z1",
+                      "class": "Frame",
+                      "background_color": "#c8c8c8",
+                      "size": "{0, 50},{0, 50}"
+                    },
+                    {
+                      "children": [
+                        {
+                          "font_color": "#ffffff",
+                          "z_index": "1",
+                          "align_x": "Center",
+                          "anchor": "0, 0.5",
+                          "alias": "rank",
+                          "size": "{0, 50},{0, 25}",
+                          "align_y": "Center",
+                          "rich": "false",
+                          "font_size": "25",
+                          "font": "SourceSansSemibold",
+                          "position": "{0, 20},{0.5, 0}",
+                          "text": "--",
+                          "background_transparency": "1",
+                          "globalid": "Y@",
+                          "class": "TextLabel"
+                        },
+                        {
+                          "font_color": "#ffffff",
+                          "z_index": "1",
+                          "align_x": "Left",
+                          "anchor": "0, 0.5",
+                          "alias": "visits",
+                          "size": "auto",
+                          "align_y": "Center",
+                          "rich": "false",
+                          "font_size": "25",
+                          "font": "SourceSansSemibold",
+                          "position": "{0, 115},{0.5, 0}",
+                          "text": "--",
+                          "background_transparency": "1",
+                          "globalid": "T,",
+                          "class": "TextLabel"
+                        },
+                        {
+                          "font_color": "#ffffff",
+                          "z_index": "1",
+                          "align_x": "Center",
+                          "anchor": "1, 0.5",
+                          "alias": "creator",
+                          "size": "auto",
+                          "align_y": "Center",
+                          "rich": "false",
+                          "font_size": "25",
+                          "font": "SourceSans",
+                          "globalid": "fH",
+                          "position": "{1, -20},{0.5, 0}",
+                          "background_transparency": "1",
+                          "text": "--",
+                          "font_transparency": "0",
+                          "class": "TextLabel"
+                        },
+                        {
+                          "new_tab": "true",
+                          "font_color": "#ffffff",
+                          "auto_color": "true",
+                          "class": "TextButton?link",
+                          "background_color": "#ffffff",
+                          "align_x": "Left",
+                          "anchor": "0, 0.5",
+                          "alias": "domain",
+                          "size": "{0, 300},{0, 25}",
+                          "align_y": "Center",
+                          "font_size": "scaled",
+                          "font": "SourceSans",
+                          "position": "{0, 200},{0.5, 0}",
+                          "text": "\t--",
+                          "z_index": "1",
+                          "globalid": "eU",
+                          "background_transparency": "1"
+                        }
+                      ],
+                      "background_color": "#1c1c1f",
+                      "position": "{0, 0},{0, 63}",
+                      "globalid": "@~",
+                      "class": "Frame",
+                      "alias": "site",
+                      "size": "{1, 0},{0, 50}"
+                    }
+                  ],
+                  "class": "Frame",
+                  "globalid": "Vc",
+                  "size": "{1, 0},{1, 0}"
+                }
+              ],
+              "globalid": "(*",
+              "alias": "list",
+              "size": "{1, 0},{0, 0}"
+            },
+            {
+              "visible": "false",
+              "background_color": "#111113",
+              "class": "Frame",
+              "position": "{0, 0},{0, 210}",
+              "children": [
+                {
+                  "background_color": "#000000",
+                  "class": "Frame",
+                  "children": [
+                    {
+                      "radius": "1, 0",
+                      "globalid": "Xm",
+                      "class": "UICorner"
+                    },
+                    {
+                      "stroke_color": "#303030",
+                      "class": "UIStroke",
+                      "globalid": "v,",
+                      "stroke_thickness": "2"
+                    },
+                    {
+                      "children": [
+                        {
+                          "radius": "1, 0",
+                          "globalid": "}t",
+                          "class": "UICorner"
+                        }
+                      ],
+                      "background_color": "#767676",
+                      "position": "{0, 0},{0, 0}",
+                      "globalid": "G5",
+                      "class": "Frame",
+                      "alias": "size",
+                      "size": "{0, 0},{1, 0}"
+                    },
+                    {
+                      "align_y": "Center",
+                      "font_color": "#767676",
+                      "rich": "false",
+                      "text": "Loading",
+                      "font_size": "scaled",
+                      "background_transparency": "1",
+                      "align_x": "Center",
+                      "position": "{0, 0},{-1, -15}",
+                      "class": "TextLabel",
+                      "font": "SourceSansSemibold",
+                      "globalid": "7l",
+                      "size": "{1, 0},{1, 5}"
+                    }
+                  ],
+                  "position": "{0.5, 0},{0, 100}",
+                  "anchor": "0.5, 0",
+                  "globalid": "kE",
+                  "alias": "loading",
+                  "size": "{0, 200},{0, 18}"
+                }
+              ],
+              "globalid": "UW",
+              "alias": "hide",
+              "size": "{1, 0},{1, 0}"
+            },
+            {
+              "class": "UISizeConstraint",
+              "globalid": ",d",
+              "max_size": "1000, 99999997952"
+            }
+          ],
+          "position": "{0.5, 0},{0.5, 0}",
+          "anchor": "0.5, 0.5",
+          "alias": "Scroller",
+          "globalid": "PY",
+          "size": "{1, -100},{1, 0}"
+        }
+      ],
+      "globalid": "p5",
+      "class": "ScrollingFrame",
+      "alias": "Website",
+      "size": "{1, 0},{1, 0}"
+    }
+  ],
+  "title": "Top Visits",
+  "background": "#ffffff"
+}
